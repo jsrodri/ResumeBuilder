@@ -1,0 +1,90 @@
+{
+  "professionalSummary": "Began developing software part-time for in January 2000 to solve unique problems in the Architectural and Engineering industry. Position evolved from part-time into full-time Software Engineering specializing in ASP .NET Core, C#, SQL, and Angular.",
+  "contact": {
+    "id": 0,
+    "firstName": "Jared",
+    "lastName": "Rodriges",
+    "phone": "(303) 835-3590",
+    "address": "24764 E Arizona Pl",
+    "City": "Aurora",
+    "State": "CO",
+    "Zip": "80018"
+  },
+  "skills": [
+    {
+      "description": "C#"
+    },
+    {
+      "description": "Angular"
+    },
+    {
+      "description": "PrimeNG"
+    },
+    {
+      "description": "Azure Cloud"
+    },
+    {
+      "description": ".NET"
+    },
+    {
+      "description": "ASP.NET Core"
+    },
+    {
+      "description": "ASP.NET MVC"
+    },
+    {
+      "description": "SQL Database"
+    },
+    {
+      "description": "T-SQL"
+    },
+    {
+      "description": "SQL Stored Procedures"
+    },
+    {
+      "description": "REST API (Client and Server) "
+    },
+    {
+      "description": "IdentityServer4"
+    },
+    {
+      "description": "OpenID"
+    },
+    {
+      "description": "OAuth 2.0"
+    },
+    {
+      "description": "Bootstrap"
+    },
+    {
+      "description": "jQuery"
+    },
+    {
+      "description": "Foundation"
+    },
+    {
+      "description": "Tabulator"
+    },
+    {
+      "description": "HTML, CSS, JavaScript"
+    },
+    {
+      "description": "Node.js"
+    },
+    {
+      "description": "WebRTC"
+    },
+    {
+      "description": "Sass"
+    },
+    {
+      "description": "Agile & Scrum"
+    },
+    {
+      "description": "Microsoft Office & Visual Studio"
+    },
+    {
+      "description": "HIPA trained"
+    }
+  ]
+}

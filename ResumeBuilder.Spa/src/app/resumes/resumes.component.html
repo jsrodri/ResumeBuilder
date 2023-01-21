@@ -1,0 +1,31 @@
+<p-breadcrumb [model]="breadcrumbItems" [home]="breadcrumbHome" styleClass="p-m-3"></p-breadcrumb>
+
+<p-fileUpload name="jsonFiles" url="./api/Resume" (onUpload)="onUpload($event)" [multiple]="true"
+              accept=".json" [auto]="true" styleClass="p-m-3">
+
+
+  <ng-template pTemplate="content">
+    <p-table [value]="uploadedResumes">
+      <ng-template pTemplate="header">
+        <tr>
+          <th></th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>File Name</th>
+          <th>Upload Date</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-resume>
+        <tr>
+          <td><button pButton [routerLink]="['/resumes', resume.id]" label="Open"></button> </td>
+          <td>{{resume.contact.firstName}}</td>
+          <td>{{resume.contact.lastName}}</td>
+          <td>{{resume.fileName}}</td>
+          <td>{{resume.importDateTime}}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+
+
+  </ng-template>
+</p-fileUpload>
